@@ -51,3 +51,23 @@ The following diagram illustrates the overall architecture of the virtual lab en
 ## Network Architecture
 
 The lab environment was deployed using VMware Workstation and isolated from production networks. OPNsense acted as the central gateway between the internal virtual network and the external network. The Linux Administrator Endpoint and Ubuntu Validation VM communicated through the firewall, allowing security policies to be enforced and validated. Wazuh monitored endpoint activity through the Wazuh Agent installed on OPNsense, while the Wazuh Dashboard was accessed from the Windows 11 host system.
+
+## Security Policies Implemented
+
+### 1. GeoIP Blocking
+
+- Configured GeoIP-based firewall rules using the IPinfo Lite database.
+- Blocked traffic originating from China and Russia.
+- Verified policy enforcement through OPNsense Firewall Live View.
+
+### 2. DNS-Based Website Blocking
+
+- Implemented website filtering using Unbound DNS Block Lists (DNSBL).
+- Blocked access to **facebook.com**.
+- Verified successful blocking using DNS resolution and browser testing.
+
+### 3. Administrator Access Control
+
+- Restricted HTTPS access to the OPNsense management interface.
+- Verified that only the designated Linux Administrator Endpoint could access the firewall.
+- Confirmed that the Ubuntu Validation VM was denied administrative access.
