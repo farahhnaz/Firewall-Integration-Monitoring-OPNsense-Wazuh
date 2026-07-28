@@ -29,3 +29,15 @@ The lab was built using VMware and includes an OPNsense firewall, Wazuh Server, 
 | Virtualization | VMware Workstation |
 | DNS Filtering | Unbound DNS Block Lists (DNSBL) |
 | GeoIP Provider | IPinfo Lite |
+
+## Lab Environment
+
+The project was implemented in an isolated VMware virtual lab consisting of the following systems:
+
+| System | Purpose |
+|---------|---------|
+| OPNsense Firewall | Firewall, routing, DHCP, DNS, and security policy enforcement |
+| Wazuh Server | Security monitoring, alerting, and dashboard visualization |
+| Linux Administrator Endpoint | Firewall administration and policy testing |
+| Ubuntu Validation VM | Validation of administrator access restrictions |
+| Windows 11 Host | Access to the Wazuh Dashboard |
