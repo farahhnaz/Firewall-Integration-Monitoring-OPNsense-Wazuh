@@ -41,3 +41,9 @@ The project was implemented in an isolated VMware virtual lab consisting of the 
 | Linux Administrator Endpoint | Firewall administration and policy testing |
 | Ubuntu Validation VM | Validation of administrator access restrictions |
 | Windows 11 Host | Access to the Wazuh Dashboard |
+
+## Project Architecture
+
+The following diagram illustrates the overall architecture of the virtual lab environment used throughout this project.
+
+![Project Architecture](architecture/lab architecture.png)
