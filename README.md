@@ -47,3 +47,7 @@ The project was implemented in an isolated VMware virtual lab consisting of the 
 The following diagram illustrates the overall architecture of the virtual lab environment used throughout this project.
 
 ![Project Architecture](architecture/lab-architecture.png)
+
+## Network Architecture
+
+The lab environment was deployed using VMware Workstation and isolated from production networks. OPNsense acted as the central gateway between the internal virtual network and the external network. The Linux Administrator Endpoint and Ubuntu Validation VM communicated through the firewall, allowing security policies to be enforced and validated. Wazuh monitored endpoint activity through the Wazuh Agent installed on OPNsense, while the Wazuh Dashboard was accessed from the Windows 11 host system.
