@@ -46,4 +46,4 @@ The project was implemented in an isolated VMware virtual lab consisting of the 
 
 The following diagram illustrates the overall architecture of the virtual lab environment used throughout this project.
 
-![Project Architecture](architecture/lab architecture.png)
+![Project Architecture](architecture/lab-architecture.png)
