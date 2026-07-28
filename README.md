@@ -122,3 +122,9 @@ Representative screenshots demonstrating the implementation and validation of th
 - Custom Wazuh Rule (110005)
 - Wazuh Discover results
 - Custom Wazuh dashboard visualization
+
+## Lessons Learned
+
+Throughout this project, I gained practical experience in deploying and validating a firewall within a virtualized environment, implementing security policies, and monitoring endpoint activity using Wazuh SIEM.
+
+I also learned the importance of validating security controls through testing, troubleshooting integration challenges, and documenting technical implementations accurately.
