@@ -1,0 +1,1 @@
+This folder contains screenshots demonstrating the implementation and validation of the project, including OPNsense configuration, Wazuh monitoring, custom rule validation, dashboard visualization, and security policy testing.
