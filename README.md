@@ -16,3 +16,16 @@ The lab was built using VMware and includes an OPNsense firewall, Wazuh Server, 
 - Monitor endpoint security events using the Wazuh Agent deployed on OPNsense.
 - Create and validate a custom Wazuh detection rule for Rootcheck events.
 - Build a custom Wazuh dashboard visualization to display rule activity.
+
+## Technologies Used
+
+| Category | Technology |
+|----------|------------|
+| Firewall | OPNsense 26.7.1 |
+| SIEM | Wazuh 4.14.6 |
+| Operating System | Ubuntu 24.04 LTS |
+| Endpoint | Linux |
+| Host Operating System | Windows 11 |
+| Virtualization | VMware Workstation |
+| DNS Filtering | Unbound DNS Block Lists (DNSBL) |
+| GeoIP Provider | IPinfo Lite |
