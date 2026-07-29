@@ -60,17 +60,35 @@ The lab environment was deployed using VMware Workstation and isolated from prod
 - Blocked traffic originating from China and Russia.
 - Verified policy enforcement through OPNsense Firewall Live View.
 
+**Firewall Rule Configuration**
+
+![GeoIP Firewall Rule](screenshots/02-geoip-firewall-rule.png)
+
+**Validation**
+
+![GeoIP Blocking Validation](screenshots/03-geoip-blocking-validation.png)
+
 ### 2. DNS-Based Website Blocking
 
 - Implemented website filtering using Unbound DNS Block Lists (DNSBL).
 - Blocked access to **facebook.com**.
 - Verified successful blocking using DNS resolution and browser testing.
 
+![DNS Blocking Validation](screenshots/04-dns-blocking-validation.png)
+
 ### 3. Administrator Access Control
 
 - Restricted HTTPS access to the OPNsense management interface.
 - Verified that only the designated Linux Administrator Endpoint could access the firewall.
 - Confirmed that the Ubuntu Validation VM was denied administrative access.
+
+**Administrator Endpoint**
+
+![Administrator Access Validation](screenshots/05-admin-access-control-validation.png)
+
+**Non-Administrator Validation**
+
+![Non-Administrator Access Validation](screenshots/06-nonadmin-access-control-validation.png)
 
 ## Security Monitoring & Custom Detection
 
